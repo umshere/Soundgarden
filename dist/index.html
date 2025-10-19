@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soundgarden - Global Radio Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-r2n6vAbj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DzOlsC-Q.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="scene-container"></div>
+      <div id="ui">
+        <header>
+          <h1>Soundgarden</h1>
+          <p>Explore live radio stations around the globe.</p>
+        </header>
+        <section id="station-info" class="hidden">
+          <div class="info-header">
+            <div>
+              <h2 id="station-name"></h2>
+              <p id="station-location"></p>
+            </div>
+            <button id="close-panel" aria-label="Close station details">×</button>
+          </div>
+          <div class="info-body">
+            <p id="station-description"></p>
+            <div class="controls">
+              <button id="play-toggle">Play</button>
+              <a id="visit-site" href="#" target="_blank" rel="noopener noreferrer">Visit Website</a>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="status" id="status">Select a station to listen.</div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
